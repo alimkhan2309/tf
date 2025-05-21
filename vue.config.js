@@ -1,5 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+  publicPath: '/tf/',
   transpileDependencies: true,
   chainWebpack: config => {
     // Add a rule for handling PDF files
