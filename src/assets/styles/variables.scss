@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+$bgcolor: #101010;
+$dark-black: #060605;
+$black: #060605;
+$dark:#161616;
+$white: #EBF2FA;
+$body-clr: #EADEFB;
+$violet: #9A4EFF;
+$violet2: #AE71FF;
+$violet-dark: #0F0819;
+$purple-dark: #160f20;
+$orange: #F1911B;
+$blue: #3A2ADE;
+$green: #38DA76;
+$yellow: #FFFB4F;
+$cyan: #00FFE0;
+$highlight: linear-gradient(to right,
+    $violet 0%,
+    $cyan 100%);
+
+/* Typeface size */
+$title: 101px;
+$subtitle: 26px;
+$h1: clamp(1.625rem, 0.8987676056338028rem + 3.0985915492957745vw, 3.6875rem);;
+$h1: 77px;
+$h2: 59px;
+$h3: 45px;
+$h4: 34px;
+$h5: 26px;
+$body: 20px;
+$small: 15px;
+
+$title: clamp(3.3rem, 2.2rem + 3.1vw, 6.31rem);
+$subtitle: clamp(1.25rem, 1rem + 0.9vw, 1.625rem);
+$h1: clamp(2.126875rem, 1.0856128640776699rem + 4.442718446601942vw, 6.416875rem);
+$h2: clamp(2.125rem, 1.5rem + 1.9vw, 3.688rem);
+$h3: clamp(1.75rem, 1.3rem + 1.5vw, 2.813rem);
+$h4: clamp(1.438rem, 1rem + 1.1vw, 2.125rem);
+$h5: clamp(1.125rem, 0.8721177184466019rem + 1.0789644012944986vw, 2.166875rem);
+$body: clamp(1rem, 0.875rem + 0.5vw, 1.25rem);
+$small: clamp(0.875rem, 0.75rem + 0.3vw, 0.938rem);
+$min-vw: 375px;
+$max-vw: 1920px;
+
+$border-radius: 32px;
+$border-radius: 0.520625rem;
+$border-radius: clamp(0.520625rem, -0.0003094660194175036rem + 2.222653721682848vw, 2.666875rem);
+
+$vertical-padding: 1.5625rem;
+$vertical-padding: clamp(1.5625rem, 0rem + 6.666666666666667vw, 8rem);
+$horizontal-padding: 1.6875rem;
+$horizontal-padding: clamp(1.6875rem, -0.011529126213592145rem + 7.249190938511327vw, 8.6875rem);
+
+// Button
+$btn-font-size: 16px;
+$btn-background-color: #F2E9FF;
+$btn-border-radius: 16px;
+
+$bento-box-color: #161616;
+$bento-border-color: #2C2C2C;
+$bento-border-radius: 24px;
+
+$xs: 8px;
+$s: 16px;
+$r: 32px;
+$m: 64px;
+$l: 128px;
+
+
+
+
+@mixin glassmorph($bgcolor, $border-color) {
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    /* background: 0.75; */
+    background-color: rgba($bgcolor, 0.25);
+    &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: $bento-border-radius;
+            padding: 1px;
+            background: linear-gradient(180deg, $bento-border-color, rgba(250, 250, 250, 0));
+            mask:
+                linear-gradient(#000 0 0) content-box,
+                linear-gradient(#000 0 0);
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+}
+
+@mixin glassmorphism-nav($bg-opacity: 0.5, $blur: 10px, $border-opacity: 0.1) {
+    backdrop-filter: blur($blur);
+    background: rgba($black, $bg-opacity);
+    border-bottom: 1px solid rgba($white, $border-opacity);
+    transition: all 0.3s ease;
+}
+
+
+// @mixin fluid-type($min-value, $max-value) {
+//     $factor: 1 / ($max-vw - $min-vw) * ($max-value - $min-value);
+//     $calc-value: unquote('#{ $min-value - ($min-vw * $factor) } + #{ 100vw * $factor }');
+
+//     font-size: $min-value; // Fallback for older browsers
+//     font-size: clamp(#{if($min-value > $max-value, $max-value, $min-value)}, #{$calc-value}, #{if($min-value > $max-value, $min-value, $max-value)});
+// }
+
+
+// @mixin fluid-width($min-value, $max-value) {
+//     $factor: 1 / ($max-vw - $min-vw) * ($max-value - $min-value);
+//     $calc-value: unquote('#{ $min-value - ($min-vw * $factor) } + #{ 100vw * $factor }');
+
+//     font-size: $min-value; // Fallback for older browsers
+//     font-size: clamp(#{if($min-value > $max-value, $max-value, $min-value)}, #{$calc-value}, #{if($min-value > $max-value, $min-value, $max-value)});
+// }

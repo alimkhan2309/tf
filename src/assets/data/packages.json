@@ -1,0 +1,78 @@
+{
+    "packages": [
+      {
+        "id": "essential",
+        "title": "Essential Launch",
+        "price": "875 AED",
+        "originalPrice": "1250 AED",
+        "targetAudience": "Freelancers, solopreneurs, small event planners",
+        "features": [
+          "Custom Design (Based on your brand/look & feel)",
+          "Up to 5 Sections",
+          "Responsive + Mobile-First Design",
+          "CMS Integration (WordPress or similar)",
+          "Basic SEO Setup (On-page + metadata)",
+          "Fast Turnaround (1 to 2 weeks)"
+        ],
+        "addOnNote": "+185 AED per additional section"
+      },
+      {
+        "id": "professional",
+        "title": "Professional Presence",
+        "price": "3290 AED",
+        "originalPrice": "4700 AED",
+        "targetAudience": "Growing businesses needing conversion-ready sites",
+        "features": [
+          "All from Essential",
+          "Up to 10 Pages",
+          "Advanced UI & Animations",
+          "Integrated Booking System",
+          "Blog / Testimonials / Media Galleries",
+          "Enhanced SEO + Google Analytics",
+          "Timeline: 3 to 4 Weeks",
+          "Aesthetic-focused design tailored for creative niches"
+        ],
+        "addOnNote": "+200 AED per extra page"
+      },
+      {
+        "id": "enterprise",
+        "title": "Premium / Enterprise",
+        "price": "Custom Quote",
+        "originalPrice": "Starts around 7,500+ AED",
+        "targetAudience": "Event agencies, real estate teams, artists with large-scale needs",
+        "features": [
+          "All from Professional",
+          "Up to 20 Pages",
+          "Bespoke Visual Identity & Graphics",
+          "Advanced Booking / Payment Integration",
+          "E-commerce Ready",
+          "Conversion Optimization (A/B Testing Guidance)",
+          "KPI Dashboard Setup",
+          "Dedicated Project Manager",
+          "Timeline: 4 to 6 Weeks"
+        ],
+        "addOnNote": "+150 AED per extra page"
+      }
+    ],
+    "compareFeatures": [
+      {
+        "feature": "Responsive Design",
+        "essential": true,
+        "professional": true,
+        "enterprise": true
+      },
+      {
+        "feature": "Integrated Booking",
+        "essential": false,
+        "professional": true,
+        "enterprise": true
+      },
+      {
+        "feature": "E-commerce Ready",
+        "essential": false,
+        "professional": false,
+        "enterprise": true
+      }
+    ]
+  }
+  

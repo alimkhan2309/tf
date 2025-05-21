@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Brand Design",
+    "description": "A cohesive and memorable brand identity that resonates with your audience and stands out in your market.",
+    "deliverables": [
+      "Brand Discovery & Research",
+      "Logo Design",
+      "Color Palette & Typography",
+      "Brand Guidelines",
+      "Visual Assets (business cards, letterheads, social media templates)"
+    ]
+  },
+  {
+    "title": "UI/UX Design",
+    "description": "Intuitive and engaging user interfaces that enhance experience and drive conversions.",
+    "deliverables": [
+      "User Research (surveys, interviews, analytics)",
+      "User Personas",
+      "Information Architecture",
+      "Wireframes",
+      "User Flow Diagrams",
+      "Interactive Prototypes",
+      "Usability Testing Reports"
+    ]
+  },
+  {
+    "title": "Web Development",
+    "description": "A responsive, fast, and scalable website tailored to your business goals.",
+    "deliverables": [
+      "Technical Planning",
+      "Front-End Development (HTML, CSS, JavaScript)",
+      "Back-End Development (servers, databases, APIs)",
+      "CMS Integration",
+      "SEO Optimization",
+      "Performance Optimization",
+      "Quality Assurance Testing",
+      "Deployment & Maintenance"
+    ]
+  },
+  {
+    "title": "App Development",
+    "description": "A robust and user-friendly mobile app that meets your business objectives and delights users.",
+    "deliverables": [
+      "Requirement Analysis",
+      "Wireframes & Prototypes",
+      "UI/UX Design for Mobile Platforms",
+      "Front-End Development",
+      "Back-End Development (server, database, APIs)",
+      "Third-Party Integration",
+      "Testing & Quality Assurance",
+      "Deployment to App Stores",
+      "Post-Launch Support"
+    ]
+  }
+]

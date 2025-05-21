@@ -1,0 +1,47 @@
+[
+  {
+    "cardTitle": "Booking Integrations",
+    "cardDetails": "Seamlessly integrate booking forms or calendars so customers can schedule appointments or services directly from your site.",
+    "cardIconUrl": "Calendar.png"
+  },
+  {
+    "cardTitle": "Custom Animations",
+    "cardDetails": "Bring your brand to life with smooth, modern animations that improve engagement and make your site feel premium.",
+    "cardIconUrl": "Sparkles.png"
+  },
+  {
+    "cardTitle": "Visual-First Design",
+    "cardDetails": "Bold, immersive visuals tailored to your brand—perfect for performers and planners who need their site to feel like the show.",
+    "cardIconUrl": "Vision.png"
+  },
+  {
+    "cardTitle": "Mobile-Optimized Experience",
+    "cardDetails": "Most clients browse on their phones—we design mobile-first to make sure your site looks good on every screen size.",
+    "cardIconUrl": "Smartphone.png"
+  },
+  {
+    "cardTitle": "Lead Generation Funnels",
+    "cardDetails": "Convert visitors into clients with smart user flows, contact forms, and CTA strategies built into every page.",
+    "cardIconUrl": "Filter.png"
+  },
+  {
+    "cardTitle": "Custom Branding",
+    "cardDetails": "From logo to color palette, we design branding that reflects your unique energy and is ready for both digital and print.",
+    "cardIconUrl": "Paint.png"
+  },
+  {
+    "cardTitle": "Media-Ready Layouts",
+    "cardDetails": "Showcase your videos, event reels, or performances with optimized video blocks and gallery sliders.",
+    "cardIconUrl": "Video.png"
+  },
+  {
+    "cardTitle": "Event Countdown Timers",
+    "cardDetails": "Build anticipation with elegant countdown widgets tailored to your events, launches, or show dates.",
+    "cardIconUrl": "Hourglass.png"
+  },
+  {
+    "cardTitle": "Fast Launch Timelines",
+    "cardDetails": "We prioritize speed without sacrificing quality—get online fast with strategic planning and quick turnarounds.",
+    "cardIconUrl": "Rocket.png"
+  }
+]
